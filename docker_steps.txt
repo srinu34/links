@@ -1,0 +1,88 @@
+create a java project
+
+print Hello World 
+
+run it
+
+open the file location
+
+compile from cmd prompt
+
+execute from cmd prompt
+
+create manifest.txt file in .class file location
+
+copy paste manifest-version details into the manifest.txt file
+
+execute jar cfm HelloWorld.jar manifest.txt HelloWorld.class on cmd prompt. this creates jar file 
+
+execute java -jar HelloWorld.jar  . this executes the program
+
+create Dockerfile file in file location
+
+copy ->
+FROM openjdk:8
+WORKDIR /
+ADD HelloWorld.jar HelloWorld.jar
+EXPOSE 8080
+CMD java -jar HelloWorld.jar
+
+into Dockerfile
+
+execute docker build -t helloworld .   in cmd prompt
+
+excute docker run helloworld in cmd prompt
+
+--------------------------------------
+docker commands
+
+docker ps 
+docker ps -a
+docker container start "container id"
+docker run -p 80:80 helloworld
+
+
+docker images
+docker rmi "image id"      -> to remove an image
+docker rm "container id"   -> to remove docker container
+
+--------------------------------------------
+            to execute a spring project
+
+choose any spring project 
+
+add H2db dependency in pom
+
+add H2 properties in app.properties
+
+give the filename in pom
+
+maven build 
+
+copy paste dockerfile details 
+
+open cmd in project location
+
+
+execute docker build -f "Dockerfile" -t "image name" . in cmd prompt  -> to create an image
+
+execute docker run -p 8081:8081 employee -> to run the spring project
+
+docker pause container_id to pause the container
+
+docker unpause container_id to unpause
+
+docker container stop container_id
+
+docker container start container_id
+
+docker login 
+
+docker tag employee:latest swaroop8787/employee  ->create a tag locally
+
+docker push "tag name" -> to push on to the hub
+
+
+
+
+

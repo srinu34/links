@@ -1,0 +1,35 @@
+Requirements -:
+
+  ->3 micro services 
+      -> Admin
+      -> User
+      -> Booking
+  
+   Admin MS ->
+          Entities : 
+                   Flight
+          methods :
+                   CRUD operations on flights
+                   getAllFlights
+                   search flights by source and destination
+                   *update source and destination
+                   *get all users       
+                   
+   User Ms ->
+         Enities : 
+                 user
+         Methods :
+                 CRUD on user
+
+                 
+   Booking MS ->
+            Entities :
+                     Ticket
+                     VO's of flights
+                     VO's of user
+            methods :
+                     search flights (user virtual objects)
+                     Book a ticket  (using virtual flight object and user vo )
+                     getAllPassengers
+                     Cancel Booking
+                     Booking History

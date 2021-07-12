@@ -1,0 +1,54 @@
+Kafka installation steps
+
+-> download kafka 2.0.0 scala 12 from https://kafka.apache.org/downloads
+
+-> extract the files 
+
+-> create a folder for zookeeper data and paste that folder path in 
+   config/zookeeper.properties for dataDir
+
+-> create a kafka_logs folder and paste the folder path in config/server.properties for
+   log.dirs
+
+-> add offsets.topic.num.partitions=1 , min.insync.replicas=1 , default.replication.factor=1
+
+-> add bin/windows to environmental variables
+
+
+------------------------------------------------------------------------- 
+          run on cmd
+firstly start zookeeper 
+
+-> zookeeper-server-start.bat C:\Program Files\apache_kafka\kafka_2.12-2.0.0\config\zookeeper.properties
+
+start kafka broker in new cmd 
+
+-> kafka-server-start.bat C:\Program Files\apache_kafka\kafka_2.12-2.0.0\config\server.properties
+
+          topic test
+
+zookeeper-shell.bat localhost:2181 ls /brokers/ids
+
+    create kafka topic
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+
+  start a producer and send some messages
+kafka-console-producer.bat --broker-list localhost:9092 --topic test
+
+  start the consumer and check the messages
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
+
+
+
+MQ's other than kafka
+
+ActiveMQ
+RabbitMQ
+PulsarMQ
+
+
+----------------------------------------------------------------------
+
+     spring boot 
+
+dependencies -> web , kafka

@@ -1,0 +1,50 @@
+spring microservices
+https://docs.google.com/presentation/d/1L573fz_AAkp9UsI_i9RidxqUjfZImhHq0jgkMXAmiyU/edit#slide=id.p2
+
+caching
+https://drive.google.com/drive/folders/1Y_HPvVk3WMXJXjb9IefIAbZllXw8-zhe
+
+springboot authentication
+https://www.codejava.net/frameworks/spring-boot/oauth2-login-with-google-example
+
+docker
+https://drive.google.com/drive/folders/1-0fNQ_ZLQaBRNMve6ZcdTbOsvBoxFcGX
+
+caching spring example
+https://github.com/greenlearner01/Ehcache-with-SpringBoot/blob/master/LibraryApplication/src/main/java/com/greenlearner/libraryapplication/controller/BookController.java
+
+kafka
+https://drive.google.com/drive/folders/1liJHs_XDJoh5YJwkOckmuqa94SicljKC
+
+cloud computing
+https://drive.google.com/drive/folders/1VzQrDi5lo-tx9c1zqjk7YIjDJA8WnXwH
+
+messiging queue
+https://www.cloudamqp.com/blog/what-is-message-queuing.html
+
+docker hub
+https://id.docker.com/login/?next=%2Fid%2Foauth%2Fauthorize%2F%3Fclient_id%3D43f17c5f-9ba4-4f13-853d-9d0074e349a7%26nonce%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOiIyMDIxLTA2LTA1VDAxOjU5OjQwLjI5OTMyODg4WiIsImlhdCI6IjIwMjEtMDYtMDVUMDE6NTQ6NDAuMjk5MzI5NTYzWiIsInJmcCI6InlHQjM3WW1uVmF5YVVkQnVGYWpzcnc9PSIsInRhcmdldF9saW5rX3VyaSI6Imh0dHBzOi8vaHViLmRvY2tlci5jb20ifQ.ssJDb6IpDwX75K5LpvBWjKQdopyGTeaWK-wNmB_YoUo%26redirect_uri%3Dhttps%253A%252F%252Fhub.docker.com%252Fsso%252Fcallback%26response_type%3Dcode%26scope%3Dopenid%26state%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOiIyMDIxLTA2LTA1VDAxOjU5OjQwLjI5OTMyODg4WiIsImlhdCI6IjIwMjEtMDYtMDVUMDE6NTQ6NDAuMjk5MzI5NTYzWiIsInJmcCI6InlHQjM3WW1uVmF5YVVkQnVGYWpzcnc9PSIsInRhcmdldF9saW5rX3VyaSI6Imh0dHBzOi8vaHViLmRvY2tlci5jb20ifQ.ssJDb6IpDwX75K5LpvBWjKQdopyGTeaWK-wNmB_YoUo
+
+kafka definition
+https://www.learningjournal.guru/article/kafka/what-is-kafka/
+
+fightbooking ppt
+https://drive.google.com/file/d/1hTY_a4zGUTkWQRiT85IXvYqzeGXgHA3s/view
+
+flight coading
+https://github.com/akshayvijaypawar365135/Koding_Demon-Airline-Booking-Form
+
+flight coading html
+https://easy-to-code.blogspot.com/2020/09/write-html-code-to-design-website-for.html
+
+mangodb
+https://docs.google.com/presentation/d/1vMpiZLgb2MukPCRx268-gzYbX6hh964wmj5skTSCEGQ/edit#slide=id.p35
+
+how to intigrate paypal
+https://www.codejava.net/coding/how-to-integrate-paypal-payment-into-java-web-application
+
+Agile scrum
+https://drive.google.com/file/d/1Z7n7_Wo9AyPqDFUx58mkLsNGoc0M1KV1/view
+
+spring boot restful document
+https://dzone.com/articles/spring-boot-restful-api-documentation-with-swagger
